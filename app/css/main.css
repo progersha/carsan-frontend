@@ -1,5 +1,5 @@
 body {
-  background-color: #DCDCDC;
+  background-color: #808080;
   margin: 0;
   padding: 0; }
 
@@ -37,7 +37,7 @@ nav {
     color: white;
     background-color: #808080; }
   nav .catalog {
-    width: 420px; }
+    width: 27%; }
   nav .col-lg-6 {
     position: absolute;
     top: 97px; }
@@ -60,3 +60,21 @@ nav {
         nav .col-lg-6 .input-group button img {
           width: 20px;
           height: 20px; }
+
+.sidebar {
+  width: 27%;
+  height: 100%;
+  background-color: #cccccc;
+  text-align: left;
+  padding-bottom: 50px;
+  font-size: 20px; }
+  .sidebar ul .first {
+    margin-top: 35px; }
+  .sidebar ul .nav-item {
+    -webkit-border-radius: 0;
+            border-radius: 0; }
+  .sidebar .nav-link {
+    padding: 22px 10px 22px 42%;
+    text-align: left; }
+    .sidebar .nav-link .active {
+      background-color: #808080; }
